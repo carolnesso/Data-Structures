@@ -12,7 +12,7 @@ NODE *creat(int number)
 {
 	NODE *new_NODE = malloc(sizeof(NODE));
 	new_NODE -> data = number;
-	new_NODE -> next = head;
+	new_NODE -> next = NULL;
 	new_NODE -> previous = NULL;
 	if (head != NULL)
 	{
